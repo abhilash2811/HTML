@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    fieldset {
+        background-color: blue;
+        color: white;
+    }
+</style>
+    </head>
+
+<body>
+    <form action="/action.sph">
+        <fieldset>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" name="Username" required autofocus></input><br><br>
+            <label for="Surname">Surname</label>
+            <input type="text" id="Surname" name="surname" required></input><br><br>
+            <label for="Phone number or Email Address">Phone number or Email Address</label>
+            <input type="text" id="Phone number or Email Address" name="phone number" required></input><br><br>
+            <label for="pwd">New Password</label>
+            <input type="password" id="pwd" name="New password" placeholder="New password" required></input><br><br>
+            <label for="Birthday">Date of Birth</label>
+            <input type="date" id="Birthday" name="Birthday"></input><br><br>
+            <label for="Gender">Gender</label>
+            <select id="Gender" name="Gender">
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="OTHERS">OTHERS</option>
+                <option value="NONE">NONE</option>
+            </select><br><br>
+            <input type="button" value="Sign up"></input>
+        </fieldset>
+    </form>
+</body>
+
+</html>
